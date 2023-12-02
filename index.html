@@ -3,23 +3,21 @@
   <head>
     <title>Projet Henel</title>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="assets/favicon.png">
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Security-Policy" content="default-src *">
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
-    <script defer src="scripts/factories/photographer.js"></script>
-    <script defer src="scripts/pages/index.js"></script>
+    <script defer src="./script.js"></script>
+
   </head>
+
+<header id="header">
+
+
+</header>
 
 
   <body>
-    <header>
-        <h1>CV Henel</h1>
-        <div id="shortIdentity"></div>
-        <div id="title">Titre</div>
-        <div id="description">Description</div>
-        <div id="photo"></div>
-        <div id="longIdentity"></div>
-    </header>
+    
     
     <section id="experience">
         <h2>Expériences Profesionnelles</h2>
@@ -81,6 +79,7 @@
             <span class="description"></span>
         </article>
     </section>
-
+    <script>createLinkDom();</script>
   </body>
+
 </html>
